@@ -1,0 +1,270 @@
+{
+  "dimension": [
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "EBOLA_MEASURE",
+                   "display": "Ebola measure"
+                 },
+                 {
+                   "label": "CASE_DEFINITION",
+                   "display": "Case definition"
+                 },
+                 {
+                   "label": "EPI_WEEK",
+                   "display": "Epi week"
+                 },
+                 {
+                   "label": "INDICATOR_TYPE",
+                   "display": "Indicator type"
+                 },
+                 {
+                   "label": "DATAPACKAGEID",
+                   "display": "Data package ID"
+                 }
+               ],
+    "fact": [
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "1647"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "958"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "208"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "208"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "64"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "1919"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "1166"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "2562"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "Not reported"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "1716"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "Not reported"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "2600"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "Not reported"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "6878"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 10 November 2014",
+                "Value": "2812"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "4683"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "978"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "79"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "174"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "824"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "35"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "5586"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": " Data are based on official information reported by the Ministry of Health up to the end of 11 November 2014",
+                "Value": "1187"
+              }
+      ]
+}

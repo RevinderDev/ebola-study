@@ -1,0 +1,953 @@
+{
+  "dimension": [
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "EBOLA_MEASURE",
+                   "display": "Ebola measure"
+                 },
+                 {
+                   "label": "CASE_DEFINITION",
+                   "display": "Case definition"
+                 },
+                 {
+                   "label": "INDICATOR_TYPE",
+                   "display": "Indicator type"
+                 },
+                 {
+                   "label": "DATAPACKAGEID",
+                   "display": "Data package ID"
+                 },
+                 {
+                   "label": "EPI_DATE",
+                   "display": "Data as of"
+                 },
+                 {
+                   "label": "OUTBREAK_IDENTIFIER",
+                   "display": "Outbreak identifier"
+                 }
+               ],
+    "fact": [
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "7"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "5"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "3"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "10"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 28 December 2015. ",
+                "Value": "8"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "3351"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "2083"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "453"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "453"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "3804"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Guinea",
+                          "EPI_DATE": "28 December 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "2536"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "12"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "12"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "8 May 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 9 May 2015. ",
+                "Value": "4"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "3151"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "1879"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "5636"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "10 666"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable.",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Liberia",
+                          "EPI_DATE": "9 May 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "4806"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "2"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "17 March 2016",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Cases and deaths reported after 7 November 2015. ",
+                "Value": "1"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "8704"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "3589"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "287"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "208"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "5131"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "158"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "14 122"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not applicable. ",
+                "Value": "-"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "Sierra Leone",
+                          "EPI_DATE": "7 November 2015",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+                "Value": "3955"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Value": "15 227"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Confirmed",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Value": "2622"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Probable",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Value": "10 767"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+                "Value": "Not reported."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Suspected",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "Data not available.",
+                "Value": "Data not available."
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "This total only includes Guinea, Liberia and Sierra Leone. ",
+                "Value": "28 616"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of cases",
+                          "INDICATOR_TYPE": "In past 21 days"
+                        },
+                "Comments": "This total only includes Guinea, Liberia and Sierra Leone. ",
+                "Value": "0"
+              },
+              {
+                "dims": {
+                          "COUNTRY": "All countries",
+                          "EPI_DATE": "",
+                          "CASE_DEFINITION": "Total",
+                          "EBOLA_MEASURE": "Number of deaths",
+                          "INDICATOR_TYPE": "Cumulative"
+                        },
+                "Comments": "This total only includes Guinea, Liberia and Sierra Leone. ",
+                "Value": "11 310"
+              }
+      ]
+}
