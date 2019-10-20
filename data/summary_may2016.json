@@ -1,0 +1,5147 @@
+{
+  "copyright": "(c) World Health Organization",
+  "dataset": [
+    {
+      "label": "REFORM_",
+      "display": "Reform Data"
+    }
+  ],
+  "attribute": [
+    {
+      "label": "COMMENT",
+      "display": "COMMENT"
+    },
+    {
+      "label": "DS",
+      "display": "DS"
+    },
+    {
+      "label": "FIPS",
+      "display": "FIPS"
+    },
+    {
+      "label": "IOC",
+      "display": "IOC"
+    },
+    {
+      "label": "ISO2",
+      "display": "ISO2"
+    },
+    {
+      "label": "ISO",
+      "display": "ISO"
+    },
+    {
+      "label": "ITU",
+      "display": "ITU"
+    },
+    {
+      "label": "MARC",
+      "display": "MARC"
+    },
+    {
+      "label": "WHO",
+      "display": "WHO"
+    },
+    {
+      "label": "WMO",
+      "display": "WMO"
+    },
+    {
+      "label": "GEOMETRY",
+      "display": "GEOMETRY"
+    },
+    {
+      "label": "MORT",
+      "display": "MORT"
+    }
+  ],
+  "dimension": [
+    {
+      "label": "COUNTRY",
+      "display": "Country",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "GIN",
+          "display": "Guinea",
+          "display_sequence": 710,
+          "url": "",
+          "attr": [
+            {
+              "category": "GEOMETRY",
+              "value": "GIN"
+            },
+            {
+              "category": "MORT",
+              "value": "1190"
+            },
+            {
+              "category": "IOC",
+              "value": "GUI"
+            },
+            {
+              "category": "DS",
+              "value": "RG"
+            },
+            {
+              "category": "FIPS",
+              "value": "GV"
+            },
+            {
+              "category": "ISO2",
+              "value": "GN"
+            },
+            {
+              "category": "ISO",
+              "value": "GIN"
+            },
+            {
+              "category": "ITU",
+              "value": "GUI"
+            },
+            {
+              "category": "MARC",
+              "value": "gv"
+            },
+            {
+              "category": "WHO",
+              "value": "GUI"
+            },
+            {
+              "category": "WMO",
+              "value": "GN"
+            }
+          ]
+        },
+        {
+          "label": "LBR",
+          "display": "Liberia",
+          "display_sequence": 970,
+          "url": "",
+          "attr": [
+            {
+              "category": "GEOMETRY",
+              "value": "LBR"
+            },
+            {
+              "category": "MORT",
+              "value": "1240"
+            },
+            {
+              "category": "IOC",
+              "value": "LBR"
+            },
+            {
+              "category": "DS",
+              "value": "LB"
+            },
+            {
+              "category": "FIPS",
+              "value": "LI"
+            },
+            {
+              "category": "ISO2",
+              "value": "LR"
+            },
+            {
+              "category": "ISO",
+              "value": "LBR"
+            },
+            {
+              "category": "ITU",
+              "value": "LBR"
+            },
+            {
+              "category": "MARC",
+              "value": "lb"
+            },
+            {
+              "category": "WHO",
+              "value": "LIB"
+            },
+            {
+              "category": "WMO",
+              "value": "LI"
+            }
+          ]
+        },
+        {
+          "label": "SLE",
+          "display": "Sierra Leone",
+          "display_sequence": 1540,
+          "url": "",
+          "attr": [
+            {
+              "category": "WMO",
+              "value": "SL"
+            },
+            {
+              "category": "GEOMETRY",
+              "value": "SLE"
+            },
+            {
+              "category": "MORT",
+              "value": "1410"
+            },
+            {
+              "category": "IOC",
+              "value": "SLE"
+            },
+            {
+              "category": "DS",
+              "value": "WAL"
+            },
+            {
+              "category": "FIPS",
+              "value": "SL"
+            },
+            {
+              "category": "ISO2",
+              "value": "SL"
+            },
+            {
+              "category": "ISO",
+              "value": "SLE"
+            },
+            {
+              "category": "ITU",
+              "value": "SRL"
+            },
+            {
+              "category": "MARC",
+              "value": "sl"
+            },
+            {
+              "category": "WHO",
+              "value": "SIL"
+            }
+          ]
+        },
+        {
+          "label": "UNSPECIFIED",
+          "display": "All countries",
+          "display_sequence": 9999,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "AGEGROUP",
+      "display": "Age group",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "AGEALL",
+          "display": "All ages (total)",
+          "display_sequence": 100,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "AGE0-14",
+          "display": "0-14",
+          "display_sequence": 0,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "AGE15-44",
+          "display": "15-44",
+          "display_sequence": 10,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "AGE45-PLUS",
+          "display": "45+",
+          "display_sequence": 100,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "SEX",
+      "display": "Gender",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "MLE",
+          "display": "Male",
+          "display_sequence": 1,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "FMLE",
+          "display": "Female",
+          "display_sequence": 2,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "BTSX",
+          "display": "Both sexes",
+          "display_sequence": 3,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "EBOLA_MEASURE",
+      "display": "Ebola measure",
+      "isMeasure": true,
+      "code": [
+        {
+          "label": "CASES",
+          "display": "Number of cases",
+          "display_sequence": 10,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "DEATHS",
+          "display": "Number of deaths",
+          "display_sequence": 20,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "CASE_DEFINITION",
+      "display": "Case definition",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "CONFIRMED",
+          "display": "Confirmed",
+          "display_sequence": 0,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "PROBABLE",
+          "display": "Probable",
+          "display_sequence": 10,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "SUSPECTED",
+          "display": "Suspected",
+          "display_sequence": 20,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "CONF_PROB_SUSP",
+          "display": "Total",
+          "display_sequence": 50,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "INDICATOR_TYPE",
+      "display": "Indicator type",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "SITREP_CUMULATIVE",
+          "display": "Cumulative",
+          "display_sequence": 10,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "SITREP_CUMULATIVE_21_DAYS",
+          "display": "In past 21 days",
+          "display_sequence": 10,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "DATAPACKAGEID",
+      "display": "Data package ID",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "2016-05-11",
+          "display": "Data package 2016-05-11",
+          "display_sequence": 452,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "EPI_DATE",
+      "display": "Data as of",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "2015-05-09",
+          "display": "9 May 2015",
+          "display_sequence": 7535,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "2015-11-07",
+          "display": "7 November 2015",
+          "display_sequence": 6625,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "2015-12-28",
+          "display": "28 December 2015",
+          "display_sequence": 6370,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "2016-03-17",
+          "display": "17 March 2016",
+          "display_sequence": 5970,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "2016-05-08",
+          "display": "8 May 2016",
+          "display_sequence": 5710,
+          "url": "",
+          "attr": []
+        }
+      ]
+    },
+    {
+      "label": "OUTBREAK_IDENTIFIER",
+      "display": "Outbreak identifier",
+      "isMeasure": false,
+      "code": [
+        {
+          "label": "EVD_WEST_AFRICA_2014",
+          "display": "EVD West Africa 2014",
+          "display_sequence": 10,
+          "url": "",
+          "attr": [
+            {
+              "category": "COMMENT",
+              "value": "Ebola virus disease outbreak in West Africa, starting in 2014"
+            }
+          ]
+        },
+        {
+          "label": "EVD_LIBERIA_2015",
+          "display": "EVD Liberia 2015",
+          "display_sequence": 20,
+          "url": "",
+          "attr": [
+            {
+              "category": "COMMENT",
+              "value": "Ebola virus disease outbreak in Liberia, third wave, starting in July 2015"
+            }
+          ]
+        },
+        {
+          "label": "EVD_SIERRALEONE_2015",
+          "display": "EVD Sierra Leone 2015",
+          "display_sequence": 20,
+          "url": "",
+          "attr": []
+        },
+        {
+          "label": "EVD_GUINEA_2016",
+          "display": "EVD Guinea 2016",
+          "display_sequence": 40,
+          "url": "",
+          "attr": []
+        }
+      ]
+    }
+  ],
+  "fact": [
+    {
+      "fact_id": 2445486,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "3351",
+        "numeric": 3351,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445487,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "453",
+        "numeric": 453,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445488,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445489,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "3804",
+        "numeric": 3804,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445490,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445491,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445492,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445493,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445494,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "2083",
+        "numeric": 2083,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445495,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "453",
+        "numeric": 453,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445496,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445497,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-12-28"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "The outbreak in Guinea was declared over on 29 December 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "2536",
+        "numeric": 2536,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445498,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "7",
+        "numeric": 7,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445499,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "3",
+        "numeric": 3,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445500,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445501,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "10",
+        "numeric": 10,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445502,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445503,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445504,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445505,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445506,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "5",
+        "numeric": 5,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445507,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "3",
+        "numeric": 3,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445508,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445509,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_GUINEA_2016"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        }
+      ],
+      "comments": "Cases and deaths reported after 28 December 2015.",
+      "value": {
+        "display": "8",
+        "numeric": 8,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445510,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "3151",
+        "numeric": 3151,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445511,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "1879",
+        "numeric": 1879,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445512,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "5636",
+        "numeric": 5636,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445513,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "10 666",
+        "numeric": 10666,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445514,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445515,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445516,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445517,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445518,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445519,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445520,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445521,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-05-09"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "The outbreak in Liberia was declared over on 9 May 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "4806",
+        "numeric": 4806,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445522,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "12",
+        "numeric": 12,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445523,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445524,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445525,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "12",
+        "numeric": 12,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445526,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445527,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445528,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445529,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445530,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "4",
+        "numeric": 4,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445531,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445532,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445533,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_LIBERIA_2015"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-05-08"
+        }
+      ],
+      "comments": "Cases and deaths reported after 9 May 2015.",
+      "value": {
+        "display": "4",
+        "numeric": 4,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445534,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "8704",
+        "numeric": 8704,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445535,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "287",
+        "numeric": 287,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445536,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "5131",
+        "numeric": 5131,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445537,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "14 122",
+        "numeric": 14122,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445538,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445539,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445540,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445541,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not applicable.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445542,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "3589",
+        "numeric": 3589,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445543,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "208",
+        "numeric": 208,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445544,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "158",
+        "numeric": 158,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445545,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2015-11-07"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_WEST_AFRICA_2014"
+        }
+      ],
+      "comments": "The outbreak in Sierra Leone was declared over on 7 November 2015. Due to ongoing surveillance and retrospective validation of cases and deaths, these totals may be subject to revision.",
+      "value": {
+        "display": "3955",
+        "numeric": 3955,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445546,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "2",
+        "numeric": 2,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445547,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445548,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445549,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "2",
+        "numeric": 2,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445550,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445551,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445552,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445553,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "-",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445554,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "1",
+        "numeric": 1,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445555,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445556,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445557,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "OUTBREAK_IDENTIFIER",
+          "code": "EVD_SIERRALEONE_2015"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "EPI_DATE",
+          "code": "2016-03-17"
+        }
+      ],
+      "comments": "Cases and deaths reported after 7 November 2015.",
+      "value": {
+        "display": "1",
+        "numeric": 1,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445558,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        }
+      ],
+      "value": {
+        "display": "15 227",
+        "numeric": 15227,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445559,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        }
+      ],
+      "value": {
+        "display": "2622",
+        "numeric": 2622,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445560,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        }
+      ],
+      "value": {
+        "display": "10 767",
+        "numeric": 10767,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445561,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        }
+      ],
+      "comments": "This total only includes Guinea, Liberia and Sierra Leone.",
+      "value": {
+        "display": "28 616",
+        "numeric": 28616,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445562,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        }
+      ],
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445563,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445564,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Not reported due to the high proportion of probable and suspected cases that are reclassified.",
+      "value": {
+        "display": "Not reported.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445565,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE_21_DAYS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "This total only includes Guinea, Liberia and Sierra Leone.",
+      "value": {
+        "display": "0",
+        "numeric": 0,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445566,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445567,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "PROBABLE"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445568,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "SUSPECTED"
+        }
+      ],
+      "comments": "Data not available.",
+      "value": {
+        "display": "Data not available.",
+        "numeric": null,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445569,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "DEATHS"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONF_PROB_SUSP"
+        }
+      ],
+      "comments": "This total only includes Guinea, Liberia and Sierra Leone.",
+      "value": {
+        "display": "11 310",
+        "numeric": 11310,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445570,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE0-14"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "value": {
+        "display": "537",
+        "numeric": 537,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445571,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "AGEGROUP",
+          "code": "AGE15-44"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        }
+      ],
+      "value": {
+        "display": "1904",
+        "numeric": 1904,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445572,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE45-PLUS"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "value": {
+        "display": "861",
+        "numeric": 861,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445573,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE0-14"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        }
+      ],
+      "comments": "Data are until 9 May.",
+      "value": {
+        "display": "561",
+        "numeric": 561,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445574,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE15-44"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        }
+      ],
+      "comments": "Data are until 9 May.",
+      "value": {
+        "display": "2060",
+        "numeric": 2060,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445575,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE45-PLUS"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Data are until 9 May.",
+      "value": {
+        "display": "703",
+        "numeric": 703,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445576,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE0-14"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        }
+      ],
+      "value": {
+        "display": "1992",
+        "numeric": 1992,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445577,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE15-44"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "value": {
+        "display": "5636",
+        "numeric": 5636,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445578,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE45-PLUS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "value": {
+        "display": "2140",
+        "numeric": 2140,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445579,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "SEX",
+          "code": "MLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        }
+      ],
+      "value": {
+        "display": "1599",
+        "numeric": 1599,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445580,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "SEX",
+          "code": "FMLE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "GIN"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        }
+      ],
+      "value": {
+        "display": "1747",
+        "numeric": 1747,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445581,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "SEX",
+          "code": "MLE"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Data are until 9 May.",
+      "value": {
+        "display": "1911",
+        "numeric": 1911,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445582,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "SEX",
+          "code": "FMLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "LBR"
+        }
+      ],
+      "comments": "Data are until 9 May.",
+      "value": {
+        "display": "1838",
+        "numeric": 1838,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445583,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "SEX",
+          "code": "MLE"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        }
+      ],
+      "value": {
+        "display": "4823",
+        "numeric": 4823,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445584,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "SLE"
+        },
+        {
+          "category": "SEX",
+          "code": "FMLE"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "value": {
+        "display": "5118",
+        "numeric": 5118,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445585,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "SEX",
+          "code": "FMLE"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        }
+      ],
+      "comments": "Total for Liberia, Sierra Leone, and Guinea where sex is known but age may not be known. Cases per capita are available in the WHO external situation report.",
+      "value": {
+        "display": "8703",
+        "numeric": 8703,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445586,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGEALL"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "SEX",
+          "code": "MLE"
+        }
+      ],
+      "comments": "Total for Liberia, Sierra Leone, and Guinea where sex is known but age may not be known. Cases per capita are available in the WHO external situation report.",
+      "value": {
+        "display": "8333",
+        "numeric": 8333,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445587,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE0-14"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        }
+      ],
+      "comments": "Total for Liberia, Sierra Leone, and Guinea where age is known but sex may not be known. Cases per capita are available in the WHO external situation report.",
+      "value": {
+        "display": "3090",
+        "numeric": 3090,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445588,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "AGEGROUP",
+          "code": "AGE15-44"
+        },
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        }
+      ],
+      "comments": "Total for Liberia, Sierra Leone, and Guinea where age is known but sex may not be known. Cases per capita are available in the WHO external situation report.",
+      "value": {
+        "display": "9600",
+        "numeric": 9600,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    },
+    {
+      "fact_id": 2445589,
+      "dataset": "REFORM_",
+      "effective_date": "2016-05-13",
+      "end_date": "2900-12-31",
+      "published": false,
+      "Dim": [
+        {
+          "category": "SEX",
+          "code": "BTSX"
+        },
+        {
+          "category": "AGEGROUP",
+          "code": "AGE45-PLUS"
+        },
+        {
+          "category": "EBOLA_MEASURE",
+          "code": "CASES"
+        },
+        {
+          "category": "COUNTRY",
+          "code": "UNSPECIFIED"
+        },
+        {
+          "category": "DATAPACKAGEID",
+          "code": "2016-05-11"
+        },
+        {
+          "category": "INDICATOR_TYPE",
+          "code": "SITREP_CUMULATIVE"
+        },
+        {
+          "category": "CASE_DEFINITION",
+          "code": "CONFIRMED"
+        }
+      ],
+      "comments": "Total for Liberia, Sierra Leone, and Guinea where age is known but sex may not be known. Cases per capita are available in the WHO external situation report.",
+      "value": {
+        "display": "3704",
+        "numeric": 3704,
+        "low": null,
+        "high": null,
+        "stderr": null,
+        "stddev": null
+      }
+    }
+  ]
+}
