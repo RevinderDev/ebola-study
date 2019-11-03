@@ -1,0 +1,1 @@
+from .WeeklyData import WeeklyData

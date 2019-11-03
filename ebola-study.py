@@ -3,6 +3,8 @@ from pymongo import MongoClient
 import numpy as np
 import matplotlib.pyplot as plt
 
+from WeeklyData import WeeklyData
+
 DATABASES = {
     'Guinea': ['guinea_weekly.json',
                'guinea_conarky_weekly.json',
@@ -26,24 +28,24 @@ HIST_BAR_WIDTH = 0.35
 
 
 def create_hist(parsed_data):
-    title = parsed_data['Country'] + parsed_data.get("Location", '')
+    title = parsed_data.country_name + ' ' + parsed_data.location
 
-    index = np.arange(len(parsed_data['Probable']))
+    index = np.arange(len(parsed_data.probable))
 
     bar_width = HIST_BAR_WIDTH
 
     fig, ax = plt.subplots(figsize=HIST_SIZE)
 
-    probable = ax.bar(index, [dic['value'] for dic in parsed_data['Probable']]
+    probable = ax.bar(index, [dic['value'] for dic in parsed_data.probable]
                       , bar_width, label='Probable cases')
-    confirmed = ax.bar(index + bar_width, [dic['value'] for dic in parsed_data['Confirmed']]
+    confirmed = ax.bar(index + bar_width, [dic['value'] for dic in parsed_data.confirmed]
                        , bar_width, label='Confirmed cases')
 
     ax.set_title(title, fontsize=HIST_FONT_SIZE)
     ax.set_xlabel('Weeks', fontsize=HIST_FONT_SIZE)
     ax.set_ylabel('Value', fontsize=HIST_FONT_SIZE)
     ax.set_xticks(index + bar_width / 2)
-    ax.set_xticklabels([dic['week'] for dic in parsed_data['Probable']], fontsize=HIST_LABEL_SIZE, rotation=90)
+    ax.set_xticklabels([dic['week'] for dic in parsed_data.probable], fontsize=HIST_LABEL_SIZE, rotation=90)
     ax.legend(fontsize=HIST_FONT_SIZE)
     paint_rectangle_values(probable)
     paint_rectangle_values(confirmed)
@@ -62,34 +64,6 @@ def paint_rectangle_values(data):
                      ha='center', va='bottom')
 
 
-def parse_non_district_to_summary(weekly_data, country_name):
-    parsed_data = {'Country': country_name,
-                   'Probable': [],
-                   'Confirmed': []
-                   }
-    try:
-        parsed_data['Location'] = weekly_data['fact'][0]['dims']['LOCATION'].capitalize()
-    except KeyError:
-        pass
-
-    for report in weekly_data['fact']:
-        dims = report['dims']
-        try:
-            value = int(report['Value'])
-        except ValueError:
-            value = 0
-        case = {
-            'value': value,
-            'week': dims['EPI_WEEK']  # (\(.*\))
-        }
-        if dims['CASE_DEFINITION'] == 'Confirmed':
-            parsed_data['Confirmed'].append(case)
-        elif dims['CASE_DEFINITION'] == 'Probable':
-            parsed_data['Probable'].append(case)
-
-    return parsed_data
-
-
 if __name__ == '__main__':
     with open('db_auth.json') as json_file:
         auth_data = json.load(json_file)
@@ -102,11 +76,11 @@ if __name__ == '__main__':
             if 'district' in document:
                 pass  # TODO: zpasrowac z district jakos
             else:
-                parsed_situation = parse_non_district_to_summary(weekly_data=doc_data.find().next(),
-                                                                 country_name=country)
-                create_hist(parsed_data=parsed_situation)
+                weekly_data = WeeklyData(weekly_report=doc_data.find().next(),
+                                         country_name=country,
+                                         interval=3)
+                create_hist(parsed_data=weekly_data)
 
-            # TODO: Wytworzyc histogram tutaj
             # TODO: Dodac modele dalej
 
     client.close()
