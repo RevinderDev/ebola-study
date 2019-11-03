@@ -1,5 +1,7 @@
 import json
 from pymongo import MongoClient
+import numpy as np
+import matplotlib.pyplot as plt
 
 DATABASES = {
     'Guinea': ['guinea_weekly.json',
@@ -17,13 +19,50 @@ DATABASES = {
 
 DATA_SOURCES = ['Situation report', 'Patient database']
 
+HIST_SIZE = (32, 16)
+HIST_FONT_SIZE = 30
+HIST_LABEL_SIZE = 7
+HIST_BAR_WIDTH = 0.35
 
-def create_hist(xvalues, yvalues):
-    # TODO: Stworzyc histogram chyba z sumaryczny z tygodnia na tydzien dla Confirmed i Probable.
-    raise Exception("Not implemented")
+
+def create_hist(parsed_data):
+    title = parsed_data['Country'] + parsed_data.get("Location", '')
+
+    index = np.arange(len(parsed_data['Probable']))
+
+    bar_width = HIST_BAR_WIDTH
+
+    fig, ax = plt.subplots(figsize=HIST_SIZE)
+
+    probable = ax.bar(index, [dic['value'] for dic in parsed_data['Probable']]
+                      , bar_width, label='Probable cases')
+    confirmed = ax.bar(index + bar_width, [dic['value'] for dic in parsed_data['Confirmed']]
+                       , bar_width, label='Confirmed cases')
+
+    ax.set_title(title, fontsize=HIST_FONT_SIZE)
+    ax.set_xlabel('Weeks', fontsize=HIST_FONT_SIZE)
+    ax.set_ylabel('Value', fontsize=HIST_FONT_SIZE)
+    ax.set_xticks(index + bar_width / 2)
+    ax.set_xticklabels([dic['week'] for dic in parsed_data['Probable']], fontsize=HIST_LABEL_SIZE, rotation=90)
+    ax.legend(fontsize=HIST_FONT_SIZE)
+    paint_rectangle_values(probable)
+    paint_rectangle_values(confirmed)
+    plt.show()
 
 
-def parse_non_district_to_summary(weekly_data, country_name, ):
+def paint_rectangle_values(data):
+    for rectangle in data:
+        height = rectangle.get_height()
+        if height == 0:
+            continue
+        plt.annotate('{}'.format(height),
+                     xy=(rectangle.get_x() + rectangle.get_width() / 2, height),
+                     xytext=(0, 3),  # 3 points vertical offset
+                     textcoords="offset points",
+                     ha='center', va='bottom')
+
+
+def parse_non_district_to_summary(weekly_data, country_name):
     parsed_data = {'Country': country_name,
                    'Probable': [],
                    'Confirmed': []
@@ -65,8 +104,9 @@ if __name__ == '__main__':
             else:
                 parsed_situation = parse_non_district_to_summary(weekly_data=doc_data.find().next(),
                                                                  country_name=country)
+                create_hist(parsed_data=parsed_situation)
 
-            #TODO: Wytworzyc histogram tutaj
-            #TODO: Dodac modele dalej
+            # TODO: Wytworzyc histogram tutaj
+            # TODO: Dodac modele dalej
 
     client.close()
