@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from WeeklyData import WeeklyData
+from epidemic_models import SIR
 
 DATABASES = {
     'Guinea': ['guinea_weekly.json',
@@ -81,11 +82,14 @@ if __name__ == '__main__':
                 weekly_data = WeeklyData(weekly_report=doc_data.find().next(),
                                          country_name=country,
                                          interval=2)
-                #create_hist(parsed_data=weekly_data)
+                # create_hist(parsed_data=weekly_data)
                 if weekly_data.location is None:  # Add only countries summary, excluding capital cities.
                     weeklies_list.append(weekly_data)
 
-    # TODO: Dodac modele dalej
+    # TODO: Dodac modele dalej <- do kitu to dziala xD
+    sir = SIR(population=12720000, days=861)
+    sir.calculate()
+    sir.plot_result()
     weekly_sum = WeeklyData.sum_all_weekly(weeklies_list)
-    create_hist(parsed_data=weekly_sum)
+    # create_hist(parsed_data=weekly_sum)
     client.close()
