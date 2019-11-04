@@ -21,14 +21,15 @@ DATABASES = {
 
 DATA_SOURCES = ['Situation report', 'Patient database']
 
-HIST_SIZE = (32, 16)
+HIST_SIZE = (16, 9)
 HIST_FONT_SIZE = 30
 HIST_LABEL_SIZE = 7
 HIST_BAR_WIDTH = 0.35
 
 
 def create_hist(parsed_data):
-    title = parsed_data.country_name + ' ' + parsed_data.location
+    title = parsed_data.country_name
+    title += ' ' + parsed_data.location if parsed_data.location is not None else ''
 
     index = np.arange(len(parsed_data.probable))
 
@@ -59,7 +60,7 @@ def paint_rectangle_values(data):
             continue
         plt.annotate('{}'.format(height),
                      xy=(rectangle.get_x() + rectangle.get_width() / 2, height),
-                     xytext=(0, 3),  # 3 points vertical offset
+                     xytext=(0, 3),
                      textcoords="offset points",
                      ha='center', va='bottom')
 
@@ -69,6 +70,7 @@ if __name__ == '__main__':
         auth_data = json.load(json_file)
         client = MongoClient(auth_data['client_string'])
 
+    weeklies_list = []
     for country in DATABASES:
         summaries = client[country]
         for document in DATABASES[country]:
@@ -78,9 +80,12 @@ if __name__ == '__main__':
             else:
                 weekly_data = WeeklyData(weekly_report=doc_data.find().next(),
                                          country_name=country,
-                                         interval=3)
-                create_hist(parsed_data=weekly_data)
+                                         interval=2)
+                #create_hist(parsed_data=weekly_data)
+                if weekly_data.location is None:  # Add only countries summary, excluding capital cities.
+                    weeklies_list.append(weekly_data)
 
-            # TODO: Dodac modele dalej
-
+    # TODO: Dodac modele dalej
+    weekly_sum = WeeklyData.sum_all_weekly(weeklies_list)
+    create_hist(parsed_data=weekly_sum)
     client.close()
