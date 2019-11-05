@@ -87,9 +87,18 @@ if __name__ == '__main__':
                     weeklies_list.append(weekly_data)
 
     # TODO: Dodac modele dalej <- do kitu to dziala xD
-    sir = SIR(population=12720000, days=861)
-    sir.calculate()
-    sir.plot_result()
-    weekly_sum = WeeklyData.sum_all_weekly(weeklies_list)
+    sir_non_vital = SIR(population=12720000, days=861, 
+        contact_rate=0.2, mean_recovery_rate = 1./ 10)
+    sir_non_vital.calculate_non_vital_SIR()
+    sir_non_vital.plot_result(magnitude=1000)
+
+    sir_vital = SIR(population=12720000, days=861,
+        contact_rate=0.2, mean_recovery_rate = 1./10,
+        death_rate=8.7, birth_rate=37.2)
+    sir_vital.calculate_vital_SIR()
+    sir_vital.plot_result(magnitude=1000)
+    # weekly_sum = WeeklyData.sum_all_weekly(weeklies_list)
     # create_hist(parsed_data=weekly_sum)
+    
+
     client.close()
