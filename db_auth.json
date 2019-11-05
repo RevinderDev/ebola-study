@@ -1,3 +1,3 @@
 {
-  "client_string" : "<YOUR STRING>"
+  "client_string" : "mongodb+srv://<username>:<password>@ebolacasestudy-5qosr.mongodb.net/test?retryWrites=true&w=majority"
 }
