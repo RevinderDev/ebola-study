@@ -11,6 +11,8 @@ class WeeklyData:
         self.probable = []
         self.confirmed = []
         self.location = None
+        self.missing_data_confirmed = []
+        self.missing_data_probable = []
 
         if weekly_report is not None:
             self.__parse_fields__(weekly_report)
@@ -24,6 +26,7 @@ class WeeklyData:
             pass
 
         for report in weekly_report['fact']:
+            missing_value_found = False
             dims = report['dims']
             try:
                 value = int(report['Value'])
@@ -34,9 +37,15 @@ class WeeklyData:
                 'week': re.search(r'(\(.*\))', dims['EPI_WEEK']).group(0)  # pulls () part from date
             }
             if dims['CASE_DEFINITION'] == 'Confirmed':
-                self.confirmed.append(case)
+                if missing_value_found:
+                    self.missing_data_confirmed.append(case)
+                else:
+                    self.confirmed.append(case)
             elif dims['CASE_DEFINITION'] == 'Probable':
-                self.probable.append(case)
+                if missing_value_found:
+                    self.missing_data_probable.append(case)
+                else:
+                    self.probable.append(case)
 
     def __squish_intervals__(self, list_to_squish):
         if self.interval == 2:
@@ -54,8 +63,8 @@ class WeeklyData:
         return new_list
 
     @staticmethod
-    def sum_all_weekly(list_of_weeklies):
-        summed_weekly = WeeklyData(country_name='Sum of all countries')
+    def sum_all_weekly(list_of_weeklies, country_name):
+        summed_weekly = WeeklyData(country_name=country_name)
         probables_list = []
         confirmed_list = []
         for weekly_data in list_of_weeklies:
@@ -80,3 +89,26 @@ class WeeklyData:
             })
 
         return new_list
+
+    @staticmethod
+    def sum_number_of_records(list_of_number_of_records) -> defaultdict:
+        sum_to_ret = defaultdict(int)
+        for record in list_of_number_of_records:
+            sum_to_ret['Missing_Probable'] += record['Missing_Probable']
+            sum_to_ret['Missing_Confirmed'] += record['Missing_Confirmed']
+            sum_to_ret['Confirmed'] += record['Confirmed']
+            sum_to_ret['Probable'] += record['Probable']
+            sum_to_ret['Total_Missing'] += record['Missing_Probable'] + record['Missing_Confirmed']
+            sum_to_ret['Total_Records'] += record['Confirmed'] + record['Probable']
+
+        return sum_to_ret
+
+    def get_number_of_records(self) -> dict:
+        return {
+            'Country': self.country_name,
+            'Location': self.location,
+            'Missing_Probable': len(self.missing_data_probable),
+            'Missing_Confirmed': len(self.missing_data_confirmed),
+            'Confirmed': len(self.confirmed),
+            'Probable': len(self.probable)
+        }
